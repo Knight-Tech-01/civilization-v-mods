@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2014 11:14:48 PM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY"/>
+			<Set Text="Bomb Shelters reduce population loss from a nuclear attack on this city by 75%. Duck and Cover!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP"/>
+			<Set Text="Reduces population loss from nuclear attack by 75%."/>
+		</Update>
+	</Language_en_US>
+</GameData>

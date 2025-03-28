@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/3/2014 5:49:02 PM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Set Value="200"/>
+			<Where Row="OPINION_WEIGHT_NUKED_MAX"/>
+		</Update>
+	</Defines>
+</GameData>

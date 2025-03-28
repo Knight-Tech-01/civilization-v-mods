@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/12/2013 11:01:44 AM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_ADVANCED_BALLISTICS"/>
+			<Where Type="UNIT_ATOMIC_BOMB"/>
+		</Update>
+		<Update>
+			<Set Range="16"/>
+			<Where Type="UNIT_NUCLEAR_MISSILE"/>
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<UnitClassType>UNITCLASS_NUCLEAR_MISSILE</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_EmpireResourceAnds>
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_EmpireResourceAnds>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<PromotionType>PROMOTION_NUKEIMMUNE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<PromotionType>PROMOTION_NUKEIMMUNE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_NUKEIMMUNE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_NUKEIMMUNE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ProductionModifierBuildings>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+	</Unit_ProductionModifierBuildings>
+</GameData>

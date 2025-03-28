@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/3/2014 5:57:55 PM -->
+<GameData>
+	<Technology_Flavors>
+		<Update>
+			<Set Flavor="25"/>
+			<Where TechType="TECH_RADAR" FlavorType="FLAVOR_NUKE"/>
+		</Update>
+		<Update>
+			<Set Flavor="25"/>
+			<Where TechType="TECH_ADVANCED_BALLISTICS" FlavorType="FLAVOR_NUKE"/>
+		</Update>
+	</Technology_Flavors>
+</GameData>

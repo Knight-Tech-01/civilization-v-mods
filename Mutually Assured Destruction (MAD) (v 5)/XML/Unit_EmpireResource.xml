@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/13/2014 8:03:50 AM -->
+<GameData>
+	<Table name="Unit_EmpireResourceAnds">
+		<Column name="UnitType" type="text" reference="Unit(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="AllowsImport" type="boolean" default="true"/>
+	</Table>
+	<Table name="Unit_EmpireResourceOrs">
+		<Column name="UnitType" type="text" reference="Unit(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="AllowsImport" type="boolean" default="true"/>
+	</Table>
+</GameData>

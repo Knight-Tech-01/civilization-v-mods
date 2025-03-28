@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b3ae4a21-6f9f-47aa-b4e0-34ede1fda0ab" version="27">
+  <Properties>
+    <Name>R.E.D. Xtreme</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Extreme Small Scale for R.E.D. Modpack</Teaser>
+    <Description>Extreme Small Scale for R.E.D. Modpack, more and smaller models per unit and adapted formations. This mod MUST be installed AFTER the R.E.D. Modpack, else the formation won't be shown correctly. If you update the R.E.D Modpack, you'll have to remove and reinstall (or update) this component AFTER the R.E.D. Modpack.</Description>
+    <Authors>Gedemon</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+  </Dependencies>
+  <References />
+  <Blocks>
+    <Mod id="681bf229-213c-4540-b347-f44b687f258f" minversion="0" maxversion="999" title="R.E.D. Single Unit graphics" />
+  </Blocks>
+  <Files>
+    <File md5="69DB37173E68F04217492B16916C3F82" import="0">xtrem.sql</File>
+    <File md5="7BAADA032FD864B368589C18FCFDEE1F" import="1">XML/unitformations.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>xtrem.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

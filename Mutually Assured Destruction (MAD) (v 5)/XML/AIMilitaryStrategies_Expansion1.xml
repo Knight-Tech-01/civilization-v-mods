@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/30/2014 6:14:53 PM -->
+<GameData>
+	<AIMilitaryStrategy_Player_Flavors>
+		<Update>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_NUKE"/>
+			<Set Flavor="400"/>
+		</Update>
+	</AIMilitaryStrategy_Player_Flavors>
+	<AIMilitaryStrategy_City_Flavors>
+		<Update>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_NUKE"/>
+			<Set Flavor="600"/>
+		</Update>
+	</AIMilitaryStrategy_City_Flavors>
+</GameData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/13/2013 1:56:48 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_NUKEIMMUNE</Type>
+			<Description>TXT_KEY_PROMOTION_NUKEIMMUNE</Description>
+			<Help>TXT_KEY_PROMOTION_NUKEIMMUNE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>1</OrderPriority>
+			<NukeImmune>TRUE</NukeImmune>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_NUKEIMMUNE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2014 11:07:44 PM -->
+<GameData>
+	<AIMilitaryStrategy_Flavors>
+		<Update>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_NUKE"/>
+			<Set Flavor="600"/>
+		</Update>
+	</AIMilitaryStrategy_Flavors>
+</GameData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2014 11:13:29 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_BOMB_SHELTER"/>
+			<Set NukeModifier="-75"/>
+		</Update>
+	</Buildings>
+</GameData>

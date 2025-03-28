@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/12/2014 12:32:53 AM -->
+<GameData>
+	<Feature_YieldChanges>
+		<Update>
+			<Set Yield="-8"/>
+			<Where FeatureType="FEATURE_FALLOUT"/>
+		</Update>
+	</Feature_YieldChanges>
+</GameData>

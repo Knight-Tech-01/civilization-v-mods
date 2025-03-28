@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/13/2013 9:40:53 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_NUKEIMMUNE">
+			<Text>Nuke Immune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NUKEIMMUNE_HELP">
+			<Text>Is immune from nuclear attacks. Try nuking this Akraed!</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_NUCLEAR_MISSILE"/>
+			<Set Text="Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius. Cannot be destroyed by nuclear attacks.[NEWLINE][NEWLINE]Requires Manhattan Project.[NEWLINE][NEWLINE]Requires access to [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE][ICON_PRODUCTION] Production 15% faster in cities with Nuclear Plant."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_NUCLEAR_MISSILE_STRATEGY"/>
+			<Set Text="The Nuclear Missile is an upgraded, more powerful Atomic Bomb. The Nuclear Missile can be based in any city you own or aboard a Nuclear Submarine or Missile Cruiser. It can move from base to base or attack a target anywhere on the map. When it detonates, a Nuclear Missile will damage cities and destroy all units within its blast radius of 2 tiles. It is automatically destroyed when it attacks. See the rules on Nuclear Weapons for more details."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_ATOMIC_BOMB"/>
+			<Set Text="Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius. May be stationed on Aircraft Carriers.[NEWLINE][NEWLINE]Requires Manhattan Project.[NEWLINE][NEWLINE]Requires access to [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE][ICON_PRODUCTION] Production 15% faster in cities with Nuclear Plant."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_NUCLEAR_FISSION_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Nuclear Plant[ENDCOLOR], a building which requires [ICON_RES_URANIUM] Uranium and increases the [ICON_PRODUCTION] Production of a City.[NEWLINE][NEWLINE]Boosts [ICON_PRODUCTION] Production of Atmoic Bomb and Nuclear Bomb."/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="726e4287-8fcc-45d9-899d-d1eb38a1bb1f" version="5">
+  <Properties>
+    <Name>Mutually Assured Destruction (MAD)</Name>
+    <Teaser>Tweaks to nuclear play to make mutually assured destruction almost inevitable.</Teaser>
+    <Description>Tweaks to nuclear play to make mutually assured destruction almost inevitable.[NEWLINE]AI will build nuclear weapons in great quantity, regardless of leader. AI also hates the use the of nukes by other civilizations.[NEWLINE]Atomic Bomb and Nuclear Missile require access to atleast one source of [ICON_RES_URANIUM] Uranium to build, but does not consume [ICON_RES_URANIUM] Uranium.[NEWLINE]Cities with Nuclear Plant can build Nuclear Missile and Atomic Bomb 15% faster.[NEWLINE]Fallout tiles appear more when nukes are used. Also removes all [ICON_GOLD] [ICON_PRODUCTION] [ICON_FOOD] from tiles.[NEWLINE]Nuclear Missile, Submarine, and Nuclear Submarine are immune to nuclear attacks.[NEWLINE]Atomic Bomb is unlocked at Radar and is obsoleted by Advanced Ballistics.[NEWLINE]Atomic Bomb upgrades to Nuclear Missile.[NEWLINE]Nuclear Missile has an increased [ICON_MOVES] range of 64 tiles, enough to hit any tile on a Huge map.[NEWLINE]Bomb Shelter nuke protection decreased to 15%.[NEWLINE]Nuclear Missiles can no longer destroy cities.</Description>
+    <Authors>VDNKh</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="5B9FB1A75D676CBF6FCAE4BEE97E1A3C" import="0">Lua/Unit_EmpireResources.lua</File>
+    <File md5="84EEDE76FA893B2D44E3479C62944A2D" import="0">XML/AIMilitaryStrategies.xml</File>
+    <File md5="DFC7D121C2F07F52D8D01C0011C2D6D0" import="0">XML/AIMilitaryStrategies_Expansion1.xml</File>
+    <File md5="2B2BBB9791591F164B42D5E64C9F56C9" import="0">XML/Buildings.xml</File>
+    <File md5="3F502D24688F190064907A7A7801E976" import="0">XML/Buildings_Expansion1.xml</File>
+    <File md5="B5F4B730B457A54BD10B9234BABC388B" import="0">XML/Defines.xml</File>
+    <File md5="52AD6235F9488B716B5807276F8B8BEB" import="0">XML/Features.xml</File>
+    <File md5="47E33B9DF359F05EE26FF3B679ECAA4F" import="0">XML/Text_Expansion1.xml</File>
+    <File md5="21B869A7CE2A2353418169359A87EAF2" import="0">XML/GlobalDiplomacyAIDefines.xml</File>
+    <File md5="2A8FC3170EC4FF0F0C1D5394336C5BF0" import="0">XML/Leaders.xml</File>
+    <File md5="37C62241B1742A11667233DAD4C9FFAA" import="0">XML/Promotions.xml</File>
+    <File md5="5300D863FF00A63AA518195E53EB6224" import="0">XML/Technologies.xml</File>
+    <File md5="ECFAE43DC3EE83D7FA14D822AF7349B0" import="0">XML/Text.xml</File>
+    <File md5="83113E3E5483D26776B5D6E93CE3B5BF" import="0">XML/Units.xml</File>
+    <File md5="9C4691016C5C5ACEC8E963A4190E64F3" import="0">XML/Unit_EmpireResource.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/AIMilitaryStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/AIMilitaryStrategies_Expansion1.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings_Expansion1.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Defines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Features.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GlobalDiplomacyAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text_Expansion1.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit_EmpireResource.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

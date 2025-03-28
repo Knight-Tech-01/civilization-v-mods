@@ -1,0 +1,1002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="917a39f3-57f0-4b18-b3cb-c4b7dbfbb41e" version="12">
+  <Properties>
+    <Name>No Quitters Mod</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Optional balance mod for NQ multiplayer games.</Teaser>
+    <Description>Optional balance mod for NQ multiplayer games.
+
+Big thanks to Delnar_Ersike for all of his code, fixes, and knowledge!!
+
+Many art contributions from Pusillanimous Gamer! Thank you!
+
+Mali Skirmisher &amp; Treasury art by Tomatekh.</Description>
+    <Authors>Fruitstrike</Authors>
+    <SpecialThanks>Hellblazer, NotQ, Delnar_Ersike, Uncanny Luck, and all the wonderful testers!!</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://www.reddit.com/r/nqmod</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>11</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="293C1EE3-1176-44f6-AC1F-59663826DE74" minversion="0" maxversion="999" />
+    <Dlc id="B3030D39-C0D8-4bc7-91B1-7AD1CAF585AB" minversion="0" maxversion="999" />
+    <Dlc id="B685D5DE-7CCA-4e75-81B4-2F60754E6330" minversion="0" maxversion="999" />
+    <Dlc id="ECF7C605-BA11-4CAC-8D80-D71306AAC471" minversion="0" maxversion="999" />
+    <Dlc id="7459BA32-5764-44ae-8E95-01AD0E0EFD48" minversion="0" maxversion="999" />
+    <Dlc id="112C22B2-5308-42b6-B734-171CCAB3037B" minversion="0" maxversion="999" />
+    <Dlc id="BBB0D085-A0B1-4475-B007-3E549CF3ADC3" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="3171836CBDE898197DD1DB74769E056E" import="0">ai/GameOption_DisableRecklessExpander.xml</File>
+    <File md5="052D08EE16545587BE6797754E836BCC" import="0">buildings/AmphitheaterChanges.xml</File>
+    <File md5="7473914BB08411A0EF10E448395BC92D" import="0">buildings/AqueductChanges.xml</File>
+    <File md5="F48713C110AF92F27A3781C8E8B9ADD1" import="0">buildings/BroadcastTowerChanges.xml</File>
+    <File md5="F27EBD9815CF31312EB124D8AEBA8AA0" import="0">buildings/CandiChanges.xml</File>
+    <File md5="68215D9A30A8352CA2FB3CC6858DB02B" import="0">buildings/CaravansaryChanges.xml</File>
+    <File md5="EF5C1365B388C8CC4C290B230F5A31E3" import="0">buildings/CeilidhHallChanges.xml</File>
+    <File md5="CC2C2CCD0BBB6EE0915DE3C71870C2CD" import="0">buildings/ConstabularyChanges.xml</File>
+    <File md5="3D58FC8A3E8E366A96E9C5FD4F610906" import="0">buildings/CourthouseChanges.xml</File>
+    <File md5="C6B19107AD63B3FF9A931949C9108C8C" import="0">buildings/FaluGruva.xml</File>
+    <File md5="F4085FE0BE087FC71F4953D8C5E9CF50" import="0">buildings/FloatingGardensChanges.xml</File>
+    <File md5="A8DA3955CC02CE60198AB3FD8F837C44" import="0">buildings/GardenChanges.xml</File>
+    <File md5="FA72A3028BC6ADBC4C3C92547856BC34" import="0">buildings/GranaryChanges.xml</File>
+    <File md5="9CCFE02F0CE955D5DCE87B7AD58D7086" import="0">buildings/HarborChanges.xml</File>
+    <File md5="C5F9AFFD552E4F08D302EDF51CC0F252" import="0">buildings/HuntingLodge.xml</File>
+    <File md5="BB390931A6B437695FA601512B6B9D47" import="0">buildings/LighthouseChanges.xml</File>
+    <File md5="CEFA439E5394E09717B32642BC3F3E24" import="0">buildings/MarketChanges.xml</File>
+    <File md5="5923FA782213820174D3B9F659625178" import="0">buildings/MintChanges.xml</File>
+    <File md5="2A51B5C7D59DF9B5DF5BE65041F7F69D" import="0">buildings/MughalFortChanges.xml</File>
+    <File md5="9443800F8C6B07376A91D5CD2B987E13" import="0">buildings/MuseumChanges.xml</File>
+    <File md5="247A7CF890ECE41CB851FCC6EF2E29DA" import="0">buildings/ObservatoryChanges.xml</File>
+    <File md5="21F722696D132754E97E7A372E491D10" import="0">buildings/Observatory_SQL.sql</File>
+    <File md5="95EBB166AFA3942FFBEF8D5A54DF47E3" import="0">buildings/OperaHouseChanges.xml</File>
+    <File md5="BE22A430517B0259EF41DC6D6005F706" import="0">buildings/PoliceStationChanges.xml</File>
+    <File md5="C9A48FC2DCB115AF39114511A1BB54E5" import="0">buildings/PublicSchoolChanges.xml</File>
+    <File md5="519E20835C7E1B264ED4C91996130429" import="0">buildings/ResearchLabChanges.xml</File>
+    <File md5="A8EF78FABCFF41C2A4EEF430B88A5351" import="0">buildings/RoyalLibraryChanges.xml</File>
+    <File md5="D62BA18D3029AB434ED8EC8EA060A86E" import="0">buildings/ShrineChanges.xml</File>
+    <File md5="BB64A8E069A7DA89E27AA5053663CF32" import="0">buildings/StadiumChanges.xml</File>
+    <File md5="5F6127197DFD5ACDD14E386C5199CFB5" import="0">buildings/StoneworksChanges.xml</File>
+    <File md5="E71D4A16DA245AFBC157CBDCE4CD4640" import="0">buildings/UniversityChanges.xml</File>
+    <File md5="D09A3C815CCA724E18306AA652D4FECB" import="0">buildings/WatermillChanges.xml</File>
+    <File md5="70F22959194F62CE1269778AA5E5526D" import="0">buildings/WindmillChanges.xml</File>
+    <File md5="85068953F2051DA326A1E2BB6EC17F35" import="0">buildings/ZooChanges.xml</File>
+    <File md5="DBFE3D8BA1FA6DDC298452E41EE800B5" import="0">civs/AmericaChanges.xml</File>
+    <File md5="ED7F310A9F7DC11539F9E6B7678E05D0" import="0">civs/AssyriaChanges.xml</File>
+    <File md5="60517823B045C99EB37301890C385BBC" import="0">civs/AustriaChanges.xml</File>
+    <File md5="B7A30EB2FD5BA90F16959B707E5CFAA2" import="0">civs/BabylonChanges.xml</File>
+    <File md5="C8AF4BE1BFD1BB075B611F20F02EA80B" import="0">civs/BrazilChanges.xml</File>
+    <File md5="CF2ED1E40DD77ADB548A7C4443D15BFE" import="0">civs/CarthageChanges.xml</File>
+    <File md5="7056FA992A7F284D5E900120E3A7B05F" import="0">civs/ChinaChanges.sql</File>
+    <File md5="8D7C687F9D09AB4145B76962F0DCF2C7" import="0">civs/ChinaChanges.xml</File>
+    <File md5="1DACC9DF539770206EDD54598A520F8B" import="0">civs/DenmarkChanges.sql</File>
+    <File md5="5FE1C85D7D9F065D0F287AA765E2DADD" import="0">civs/DenmarkChanges.xml</File>
+    <File md5="689B80C86E21719FB69D540B1ADE2A1C" import="0">civs/EthiopiaChanges.xml</File>
+    <File md5="5BDA184FBB8BB75FE68A48DAD156E165" import="0">civs/FranceChanges.xml</File>
+    <File md5="F80097A9B513324C420C0D0E37326BE8" import="0">civs/France_SQL.sql</File>
+    <File md5="6A9D9ED7E2C9C7B492DE3E1DC69276FC" import="0">civs/GermanyChanges.xml</File>
+    <File md5="7C7FBC50834A354DF8B38B8D7230E594" import="0">civs/IndiaChanges.xml</File>
+    <File md5="E1A4F0F003937D0670CB1921F7D77C24" import="0">civs/IndonesiaChanges.xml</File>
+    <File md5="2EA04D180F1A0B24786C80F76EDFEBE5" import="0">civs/IroquoisChanges.xml</File>
+    <File md5="D8C01A1307C7120A3D4928E21B140C65" import="0">civs/JapanChanges.xml</File>
+    <File md5="C8A24BDB204AF3F0D4E7FE77E18393F1" import="0">civs/KoreaChanges.xml</File>
+    <File md5="6BB81F80E302620A664E7AAE88B29A41" import="0">civs/Mali/BuildingTreasury.xml</File>
+    <File md5="1E0A1F11B1A8951C6995CDDC7C085AAB" import="0">civs/Mali/CivilizationMali.xml</File>
+    <File md5="0545C8166A7BEFB4A85DF0BD22E6B245" import="0">civs/Mali/LeaderMansaMusa.xml</File>
+    <File md5="F923E1F95F7DB72B6C0F3819D88383EC" import="0">civs/Mali/MaliCities.xml</File>
+    <File md5="C597590E5542C86E7110486CD4A51602" import="0">civs/Mali/MaliCivilopedia.xml</File>
+    <File md5="EA5FC575C3CE4A4B754AFFA47F6FA5AF" import="0">civs/Mali/MaliColors.xml</File>
+    <File md5="632F9269EB357D7B8F8E5CE83B8BEF79" import="0">civs/Mali/MaliMusic.xml</File>
+    <File md5="4600F8C8EE692FC4F20D95FF77FE4C1C" import="0">civs/Mali/MaliSpies.xml</File>
+    <File md5="D97A553704D64CA0FC8D0B5977B80506" import="1">civs/Mali/Mali_Mansa_Musa_Scene.xml</File>
+    <File md5="1664063D76B2E95FBF24E533A3F69A97" import="1">civs/Mali/MansaMusaPeace.mp3</File>
+    <File md5="999D4B4B832CE2821161D21BFFBD137A" import="1">civs/Mali/MansaMusaWar.mp3</File>
+    <File md5="32D790DFEF5991876919F4E4FA7F82E2" import="0">civs/Mali/TraitGoldenPilgrimage.xml</File>
+    <File md5="3C57866F77DE1AC64844C0452B5F6F63" import="0">civs/Mali/UnitSkirmisher.xml</File>
+    <File md5="F4B3B8706194A90E1CF1E88F00501A80" import="0">civs/MoroccoChanges.xml</File>
+    <File md5="C4B4E54CADF493F852166FC731E0D72E" import="0">civs/MoroccoChanges.sql</File>
+    <File md5="987927DB83076DC3CB73E4A47C368A5A" import="0">civs/NetherlandsChanges.sql</File>
+    <File md5="A2BF3E8A2BE8099127BA64DCC54DC1C8" import="0">civs/NetherlandsChanges.xml</File>
+    <File md5="3D620193E2D073D1819139B414555A43" import="0">civs/OttomanChanges.sql</File>
+    <File md5="AEB54C82D3DE43785C413B148CC1E48E" import="0">civs/OttomanChanges.xml</File>
+    <File md5="3877861A8CA135EB1BA78232FF1DAB7E" import="0">civs/PolandChanges.xml</File>
+    <File md5="B2AE94142ABDDE2D528505D823C33679" import="0">civs/PolynesiaChanges.xml</File>
+    <File md5="8E49E355F84070AC69E05FF4F7D76C94" import="0">civs/PortugalChanges.xml</File>
+    <File md5="35654279B7E456830708CDD540EFF67D" import="0">civs/RemoveVenice.xml</File>
+    <File md5="0B7A7DD87DADA6DB60B7092A48DA44A4" import="0">civs/SonghaiChanges.xml</File>
+    <File md5="704BE0243894B2605CE692E7984EA830" import="0">civs/SpainChanges.xml</File>
+    <File md5="4696630052496DC07A91930AB7AE6333" import="0">civs/SwedenChanges.sql</File>
+    <File md5="DD0E2096F68C25100781E7DF5E735E59" import="0">civs/SwedenChanges.xml</File>
+    <File md5="EA2B64DEA8046E22A9DC1E8B95F8DE82" import="0">civs/VeniceChanges.xml</File>
+    <File md5="54F5C29EAD0E71A7DEB0C1692BB79010" import="1">CvGameCore_Expansion2.pdb</File>
+    <File md5="002740A6FA36A1B3403A7AA24D37976E" import="0">features/ChopChanges.xml</File>
+    <File md5="CE8DED491BD6AFB898C80A89B0F772BF" import="0">features/LakeChanges.xml</File>
+    <File md5="D1B53BC3D1293649F3CDC8A0F02B65FC" import="0">gameplay/AdjustKnownTechCostDiscount.xml</File>
+    <File md5="F6385A3809E4B4F7CD4B0F2619943FF1" import="0">gameplay/CityStateChanges.xml</File>
+    <File md5="098B710BBC2CAD45EE68005320BCE9B0" import="0">gameplay/CIV5GameOptions_Automation_Resets_TurnTimer.xml</File>
+    <File md5="0A6DF5D6A91852969469358666CD37D9" import="0">gameplay/CIV5GameOptions_AutoPause_on_Active_Disconnect.xml</File>
+    <File md5="4D8F6F1E2294BB49FCF53540E019CBCF" import="0">gameplay/CIV5GameOptions_Binomial_RNG_Combat.xml</File>
+    <File md5="9E22A4FF747162DFEABFBBE7E8758D5D" import="0">gameplay/CIV5GameOptions_Capitol_Gifting.xml</File>
+    <File md5="EE6A6A5D8EC4E0BE248B11475B164542" import="0">gameplay/CIV5GameOptions_No_Tech_Cost_Total_Known_Team_Modifier.xml</File>
+    <File md5="38D02F944A4B021C55AF3597F5E49723" import="0">gameplay/CIV5GameOptions_Randomized_Turn_Activation.xml</File>
+    <File md5="E76E1F3CCCDDB38FCBA1D179BE698FF6" import="0">gameplay/CIV5GameOptions_Ranged_Counterattacks.xml</File>
+    <File md5="86D9304804B2D89E8CC18F9151C34CEB" import="0">gameplay/CIV5GameOptions_Relative_TurnTimers.xml</File>
+    <File md5="8257E75C2CBAD69DF4661DE835C6888D" import="0">gameplay/FlatlandCityExtraFood.xml</File>
+    <File md5="9D45FED6F2C9238A98937C937329EE3A" import="0">gameplay/GoodyHutChanges.xml</File>
+    <File md5="6393699F4F5AC9FDC51ED7E4D12020D7" import="1">CvGameCore_Expansion2.dll</File>
+    <File md5="24D4E58F754E62FBCA987DBA52056E7A" import="0">gameplay/InlandSeaChanges.xml</File>
+    <File md5="D83EF6B75F6D8A591D1AB0AF35E4F2B7" import="0">gameplay/RemoveRAs.xml</File>
+    <File md5="89728A4626462E96811DF74EFADF427F" import="0">gameplay/RemoveUnitSupplyLimit.xml</File>
+    <File md5="E54A56CEB526DD09D8DE7D7A4FADE339" import="0">gameplay/ThemingBonusChanges.xml</File>
+    <File md5="F91D0D509F902FB0454CC92205E4E83F" import="0">gameplay/WetLandsRegion.xml</File>
+    <File md5="EE3A0E6B1E918100E0C5F3E88277EBBF" import="0">gameplay/WLTKDChanges.xml</File>
+    <File md5="2C7D41C71D24527EF75130B6DA00535F" import="0">great_people/CitizenSpecialistChanges.xml</File>
+    <File md5="880CCFE5F1237D39E2581103C8FE4680" import="0">great_people/GreatEngineerChanges.xml</File>
+    <File md5="F4E1CC86D6BBD58F25FC65547E5A73CE" import="0">great_people/GreatGeneralChanges.xml</File>
+    <File md5="DC5526868DBA0EFEB70B4E8ECF53A214" import="0">great_people/GreatHumanitarian.xml</File>
+    <File md5="E8BCC02BB8B8A19CBDDF349F95CFBF96" import="0">great_people/GreatMerchantChanges.xml</File>
+    <File md5="91222EFA3BADD2F110516794204C3E8B" import="0">great_people/GreatProphetChanges.xml</File>
+    <File md5="A1B0DDC84D60B53CD7113DF3C3524D28" import="0">great_people/GreatScientistChanges.xml</File>
+    <File md5="2BE824D968AED77E4EA5782C9496A73F" import="0">ideologies/autocracy/T1_1EliteForces.xml</File>
+    <File md5="0D20AA4D4B37DCC0C694F68F180DC0B9" import="0">ideologies/autocracy/T1_2GunboatDiplomacy.xml</File>
+    <File md5="28EED6FD0F6A73FB86823AD507FE135B" import="0">ideologies/autocracy/T1_3Futurism.xml</File>
+    <File md5="753FF4D923B4A39A982DA9E704E0FDAE" import="0">ideologies/autocracy/T1_4UniversalHealthcare.xml</File>
+    <File md5="98ABE272C2101A1FDA5540B5DA0BDB9B" import="0">ideologies/autocracy/T1_5IndustrialEspionage.xml</File>
+    <File md5="7154B7989533E0E771AF549EBDC89549" import="0">ideologies/autocracy/T2_1TotalWar.xml</File>
+    <File md5="82E1951D2B18E0D222FB9E1C97110E5F" import="0">ideologies/autocracy/T1_7Jingoism.xml</File>
+    <File md5="764475127F85C7361FF6BB85BE34F772" import="0">ideologies/autocracy/T1_8ThirdAlternative.xml</File>
+    <File md5="C17C5E6B5EE3AEDD93B5806BA71F5DA4" import="0">ideologies/autocracy/T2_5Mobilization.xml</File>
+    <File md5="8ABF9B2D4A3B3410EC9AE7A7FA1BB923" import="0">ideologies/autocracy/T3_2Partisans.xml</File>
+    <File md5="E62220AF0E2C71B568D493419F493DB2" import="0">ideologies/autocracy/T2_3WarHero.xml</File>
+    <File md5="6614174826A1B8B34AC5B749900C1B2C" import="0">ideologies/autocracy/T2_4Facism.xml</File>
+    <File md5="15BD9EC1CD1C900D5D465C399437B0F3" import="0">ideologies/autocracy/T1_6ClientStates.xml</File>
+    <File md5="DFB487242A58FE4D7D27CEA685774C50" import="0">ideologies/autocracy/T3_1LightningWarfare.xml</File>
+    <File md5="7E2B49F24EBCC74457FE967E2D427389" import="0">ideologies/autocracy/T2_2UnitedFront.xml</File>
+    <File md5="3F215C6CBD6485C06F37A05844C8DAB1" import="0">ideologies/autocracy/T3_3CultOfPersonality.xml</File>
+    <File md5="4943009CAF9DE6C9D08C4CDAC69FE496" import="0">ideologies/autocracy/T3_4PoliceState.xml</File>
+    <File md5="87E7688413867680EA9CA85BEDA1111B" import="0">ideologies/freedom/T1_1EconomicUnion.xml</File>
+    <File md5="A78754E888A9294813C0783D89FC2F2B" import="0">ideologies/freedom/T1_2Liberalism.xml</File>
+    <File md5="2CAD68FA8F185145405B90DB5D3B7598" import="0">ideologies/freedom/T1_3Consumerism.xml</File>
+    <File md5="14EE260EB0AC833AA9142798A87C5AD9" import="0">ideologies/freedom/T1_4UniversalHealthcare.xml</File>
+    <File md5="929C024926F3C4D951C4DEE32DCE4422" import="0">ideologies/freedom/T1_5CovertAction.xml</File>
+    <File md5="86323FE8C726C2DFCC4A388185906AB4" import="0">ideologies/freedom/T1_6VolunteerArmy.xml</File>
+    <File md5="C0B654F0473FABB1A09A97F5209A9C27" import="0">ideologies/freedom/T1_7FreeTrade.xml</File>
+    <File md5="0BDB794E041D2CEF27DEB1EBD840908B" import="0">ideologies/freedom/T1_8CivilSociety.xml</File>
+    <File md5="A3B32321471F12E7E49C2FBA7BE712DA" import="0">ideologies/freedom/T1_CreativeExpression.xml</File>
+    <File md5="D5365B7407467D6456A1AEFBE5CE4348" import="0">ideologies/freedom/T1_7FreeTrade.lua</File>
+    <File md5="3FF3E152BF8CF633067EF0B343E2B0F0" import="0">ideologies/freedom/T1_7FreeTrade.sql</File>
+    <File md5="9497574F02AF49D0EE478F98803C018F" import="0">ideologies/freedom/T2_1VoiceOfDemocracy.xml</File>
+    <File md5="9184B4B67B63EE3EE1F535CC812BCE5B" import="0">ideologies/freedom/T2_2FreeMarket.xml</File>
+    <File md5="B72E7581958BA86799101C2E10A2DD5C" import="0">ideologies/freedom/T2_3AvanteGarde.xml</File>
+    <File md5="662A684FE07A82C2E6F0B5CFAF46CCF0" import="0">ideologies/freedom/T3_4Capitalism.xml</File>
+    <File md5="387CAAC68D917A798EB13B52D6469D69" import="0">ideologies/freedom/T2_5UniversalSuffrage.xml</File>
+    <File md5="73D80ACFCAD3FCBF0E6BB0BA1C76741C" import="0">ideologies/freedom/T2_Urbanization.xml</File>
+    <File md5="40B44414DE00549C10E63B1557387482" import="0">ideologies/freedom/T3_1TreatyOrganization.xml</File>
+    <File md5="04FC6FB6198B5154C0D40E7969FA8B54" import="0">ideologies/freedom/T3_2SpaceProcurements.xml</File>
+    <File md5="FE0ED4AA9614BC48C00805FC0FD89D58" import="0">ideologies/freedom/T3_3MediaCulture.xml</File>
+    <File md5="D6168C0B8CF16DA02CB4ECE90EB85C9C" import="0">ideologies/freedom/T2_4NewDeal.xml</File>
+    <File md5="62800EB3A59E1D839809ED787D8AC15B" import="0">ideologies/IdeologyTriggerChanges.xml</File>
+    <File md5="FCADAE7F4F60207EC4CFEB49E707DBCB" import="0">ideologies/order/T2_1WorkersFaculties.xml</File>
+    <File md5="13841CC33444F4C1C238041BFA006CDE" import="0">ideologies/order/T2_2PatrioticWar.xml</File>
+    <File md5="57BAF1B939BD7A13A1AF6C02969EA7CF" import="0">ideologies/order/T1_3Utopianism.xml</File>
+    <File md5="66ADFE29D4957938DD254484B4B79431" import="0">ideologies/order/T1_4UniversalHealthcare.xml</File>
+    <File md5="26611D9962515DD5EA7C7A7E0B810293" import="0">ideologies/order/T1_5DoubleAgents.xml</File>
+    <File md5="D186D7AD05B1CAD34CBC6A7EFC7CD5ED" import="0">ideologies/order/T1_6Collectivization.xml</File>
+    <File md5="096D90A711A435643AC08E538D43E16A" import="0">ideologies/order/T1_7IronCurtain.xml</File>
+    <File md5="7ECAC92047D086D153A0E06D92534039" import="0">ideologies/order/T1_8FiveYearPlan.xml</File>
+    <File md5="1EC107E08A0AB7CC8103D5AA8D21ADD7" import="0">ideologies/order/T1_1AcademyOfSciences.xml</File>
+    <File md5="2F0177307E874C13A2F2A3FAED482547" import="0">ideologies/order/T3_2SatelliteStates.lua</File>
+    <File md5="423CEE2B0CCC6CCB809D10DE9557B695" import="0">ideologies/order/T3_2SatelliteStates.xml</File>
+    <File md5="0DB9F43D032B7CFAF4EDD47667F6FCB1" import="0">ideologies/order/T2_3SocialistRealism.xml</File>
+    <File md5="AE4F60A62C1DDB261E13F7049AC20EDB" import="0">ideologies/order/T2_4Communism.xml</File>
+    <File md5="244999320B4BA3A8C0870B6659C445A3" import="0">ideologies/order/T3_4MinistryOfRailways.xml</File>
+    <File md5="5432C12469087B58D19B963F3C423E92" import="0">ideologies/order/T3_1SpaceflightPioneers.xml</File>
+    <File md5="A139BDB6527D92CE713E00E9CD572550" import="0">ideologies/order/T3_3CulturalRevolution.xml</File>
+    <File md5="25A940C6E9CB05B00A7E9B1F2AE69F5F" import="0">ideologies/order/T1_2RedArmy.xml</File>
+    <File md5="F674144F1C61B680CE3BECB0E875020A" import="0">ideologies/order/T2_5PartyLeadership.xml</File>
+    <File md5="B8C499C1A93E0D126D7685BEBD5A905F" import="0">improvements/CampsChanges.xml</File>
+    <File md5="4DF7E2BDCBE38F367E26C101B5F60906" import="0">improvements/CustomsHouseChanges.xml</File>
+    <File md5="754D65C70D3058E2BC8AF793984CEF87" import="0">improvements/FishingBoatsChanges.xml</File>
+    <File md5="F984574194CB73300455B0A5AD760213" import="0">improvements/ImprovementBuildTimesChanges.xml</File>
+    <File md5="F3C3971B45F478C909614E576D9AD297" import="0">improvements/ManufactoryChanges.xml</File>
+    <File md5="50407042866E6DACF985A087C0B3C54B" import="0">improvements/PlantationChanges.xml</File>
+    <File md5="E06CCCD161FB30ACBE7174E33B91D069" import="0">projects/WorldsFairChanges.xml</File>
+    <File md5="31390682C98AD552237564FBFB4246FB" import="0">religion/AllowExtraReligions.xml</File>
+    <File md5="B54A87B8ADF10F1690F788DAF7551E43" import="0">religion/enhancers/DalaiLama.xml</File>
+    <File md5="4378393CEB8E936B72EDF0D77529E051" import="0">religion/enhancers/DeusVult.sql</File>
+    <File md5="E7ACBF96DDC1B569C3F48BB32A98BB54" import="0">religion/enhancers/DeusVult.xml</File>
+    <File md5="6571361BD8AB45D3260607CA390C5F07" import="0">religion/enhancers/Dharma.sql</File>
+    <File md5="F9E7B304491C0B9451A256ED578272D3" import="0">religion/enhancers/Dharma.xml</File>
+    <File md5="7F4C15F5742D34DC9996C148C7BD886E" import="0">religion/enhancers/JustWar.xml</File>
+    <File md5="53E40676A6DD980F1468056660A14DCB" import="0">religion/enhancers/PapalPrimacy.sql</File>
+    <File md5="CB27E36F2415FFF28167F9C0C2FC58F6" import="0">religion/enhancers/PapalPrimacy.xml</File>
+    <File md5="BEB17C05D08DEEDDA0BE8DCFDD031515" import="0">religion/enhancers/Pilgrimage.sql</File>
+    <File md5="6D4C30A522E5BBE18A87C1BFC38F8466" import="0">religion/enhancers/Pilgrimage.xml</File>
+    <File md5="847A4BA6E6CAFAEA11DA581A1EC8B977" import="0">religion/enhancers/PromisedLand.sql</File>
+    <File md5="F8721FC63AEC992F8B81AD6A6708E86C" import="0">religion/enhancers/PromisedLand.xml</File>
+    <File md5="1FB79250FCB138A46425C76DF06E4F22" import="0">religion/enhancers/UnityOfTheProphets.xml</File>
+    <File md5="4F5C83D4A3F9543FCA41B77ADF43AB62" import="0">religion/enhancers/Reliquary.xml</File>
+    <File md5="D066FD17280DEA8D7F4A95A199DC78EA" import="0">religion/enhancers/_RemoveOldEnhancers.xml</File>
+    <File md5="64A89A6E1501CD490E63EB3714AF27F3" import="0">religion/FaithPurchasingChanges.xml</File>
+    <File md5="77F7EF6B8FA21356EE2A4A4B27F72D31" import="0">religion/followers/Cathedrals.xml</File>
+    <File md5="EA953C6B7CB705C74A56B1B3071F96EB" import="0">religion/followers/DivineInspiration.xml</File>
+    <File md5="2A80121C485F33045B0D7736F89A57A4" import="0">religion/followers/FaithHealers.xml</File>
+    <File md5="D2D3DD42FBC921D7627DF327C370F62D" import="0">religion/followers/FeedTheWorld.xml</File>
+    <File md5="EDBBBA90823E52CA4C6058F9802BF1CC" import="0">religion/followers/Gurdwaras.xml</File>
+    <File md5="4B644915074C5B61412CD167102A4492" import="0">religion/followers/Guruship.xml</File>
+    <File md5="D11D989340D6DEBDD2B64476E40FB94E" import="0">religion/followers/HolyWarriors.xml</File>
+    <File md5="DDC0360DD8C07615AA66BF1AA72DBC12" import="0">religion/followers/Madrassas.xml</File>
+    <File md5="25A6CFD34E59E3BDE8928507279DBCA6" import="0">religion/followers/Mosques.xml</File>
+    <File md5="ABA6CA75C0D03AF851BD89674C821A1C" import="0">religion/followers/Pagodas.xml</File>
+    <File md5="A383F5B804F59A2F30EEA497EE6C03C3" import="0">religion/followers/LiturgicalDrama.xml</File>
+    <File md5="FC8F94B023B493C804F41F046367F85D" import="0">religion/followers/ReligiousCenter.xml</File>
+    <File md5="A1C10767AF0733EEE5B00466E3440943" import="0">religion/followers/ReligiousCommunity.xml</File>
+    <File md5="D4953567BF1D0F4B75AD6963A0C7D21C" import="0">religion/followers/SacredWaters.xml</File>
+    <File md5="E99A4C5E1FE3DE640F0CB50EA276C136" import="0">religion/followers/SpiritualDialogue.xml</File>
+    <File md5="B24FB673758AD64CEDABD4FD796D7236" import="0">religion/followers/Synagogues.xml</File>
+    <File md5="4B1F380DD675FD80179D7D563069C778" import="0">religion/followers/Basilicas.xml</File>
+    <File md5="CCC6BD8D84C27E8BCE1BC340BFDF3A3C" import="0">religion/followers/_RemoveOldFollowers.xml</File>
+    <File md5="D753FBA894165C53F0CA71AB40CA6E80" import="0">religion/founders/CeremonialBurial.xml</File>
+    <File md5="F34036D18A9EB806EE501AE728894110" import="0">religion/founders/ChurchProperty.xml</File>
+    <File md5="1D3952155DC59CDE879C94759659BA0B" import="0">religion/founders/DefenderOfTheFaith.xml</File>
+    <File md5="48CBE29123F549213C7F7CF32ED9FFC0" import="0">religion/founders/InitiationRites.xml</File>
+    <File md5="E01C2822297584C5FA4F37DA8BAC4CA6" import="0">religion/founders/Messiah.xml</File>
+    <File md5="027DA181FEE6F2C99F267DF413167FD3" import="0">religion/founders/MissionaryZeal.sql</File>
+    <File md5="AAE8692D85A79C5DEA516072F90A7753" import="0">religion/founders/MissionaryZeal.xml</File>
+    <File md5="1462F72A7781059F9B79054F429F7B8B" import="0">religion/founders/ReligiousSettlements.sql</File>
+    <File md5="0BC4BA13483DEF629805B5DC489C8DEE" import="0">religion/founders/ReligiousSettlements.xml</File>
+    <File md5="2387495673775C77C1B53F5A107D6B31" import="0">religion/founders/Tithe.xml</File>
+    <File md5="283A78119DC4DA68CA205161A60754C5" import="0">religion/founders/CharitableMissions.xml</File>
+    <File md5="C07A6E7D0344C00967023BEF5CF4655C" import="0">religion/founders/_RemoveOldFounders.xml</File>
+    <File md5="F5E4FEBEBB23F0A3E0AE06228B168C2C" import="0">religion/FoundingPantheonChanges.xml</File>
+    <File md5="FE551A1FF05473FD846C859E51993FA8" import="0">religion/InquisitorChanges.xml</File>
+    <File md5="72F178537CE85B34AF2A3BBD55396414" import="0">religion/pantheons/AncestorWorship.xml</File>
+    <File md5="44F1CC3D6E6F226CC12BA2A80E2D3F9F" import="0">religion/pantheons/DesertFolklore.xml</File>
+    <File md5="87D6352E3D236A8CFE47C57ABA815D98" import="0">religion/pantheons/EarthMother.xml</File>
+    <File md5="3956791200B4C5ADFD021F927525D18C" import="0">religion/pantheons/God-King.xml</File>
+    <File md5="67EA2DD396EA7D9F21CA989E59B53EF2" import="0">religion/pantheons/GoddessOfFestivals.xml</File>
+    <File md5="C6ED12B8A22FAD0567D644BB724B65D8" import="0">religion/pantheons/GoddessOfLove.xml</File>
+    <File md5="77641FF1CF8C7CF980974E17700A48D3" import="0">religion/pantheons/GoddessOfTheHunt.xml</File>
+    <File md5="E08717FA9E30A7ACF8AE42C35C476DEC" import="0">religion/pantheons/GodOfTheSea.xml</File>
+    <File md5="C7F77CE4CB75B3FC1F3B50844117E8CA" import="0">religion/pantheons/MonumentToTheGods.xml</File>
+    <File md5="62BCABB730ECA0F53D8231F44D98C507" import="0">religion/pantheons/MysticRituals.xml</File>
+    <File md5="8834D758DC4764C63FD424D339F6A37C" import="0">religion/pantheons/OneWithNature.xml</File>
+    <File md5="528CB47561C61ECB6C1273FE5B419180" import="0">religion/pantheons/OralTradition.xml</File>
+    <File md5="4C7A9692C9B635F0471FD42365B93BF2" import="0">religion/pantheons/RainDancing.xml</File>
+    <File md5="A205CA22FD269B69E910E131554EB226" import="0">religion/pantheons/ReligiousIdols.xml</File>
+    <File md5="195830D9E29625E0357FD1015DF7FC08" import="0">religion/pantheons/RiteOfSpring.xml</File>
+    <File md5="EE03EC0FB92C913FFF693AE2287291F7" import="0">religion/pantheons/SacredPath.xml</File>
+    <File md5="5460DD65510D494031445AEAC44EAD0F" import="0">religion/pantheons/SpiritAnimals.xml</File>
+    <File md5="0BCD5A7E67D295474145EE52BEF7F41C" import="0">religion/pantheons/StoneCircles.xml</File>
+    <File md5="4AD6F226C8A41B1D446EEB9DFA5F6BCA" import="0">religion/pantheons/SunGod.xml</File>
+    <File md5="200706EDE62C8DAEEE5F6675D99C534F" import="0">religion/pantheons/VisionQuests.xml</File>
+    <File md5="EE4BC38BF70827B29307939DBF4D13D7" import="0">religion/pantheons/_RemoveOldPantheons.xml</File>
+    <File md5="4F9BC283F42044EE4B3F8CE3F71F581C" import="0">religion/ProphetSpawnChanges.xml</File>
+    <File md5="ACC00005F248B8728530718A932CB85E" import="0">religion/reformations/ApostolicPalace.xml</File>
+    <File md5="46ADB04C6AA5CB2105BC11652A03B100" import="0">religion/reformations/SwordsToPlowshares.xml</File>
+    <File md5="2230C08051E893AB0A67AD0289006913" import="0">religion/reformations/JesuitEducation.xml</File>
+    <File md5="2FA76D5D44B8559F24BB608802187017" import="0">religion/reformations/HousesOfWorship.xml</File>
+    <File md5="75C39885DBC8BE7486A866F72E2E9E65" import="0">religion/reformations/ReligiousUnity.xml</File>
+    <File md5="3D5E559359ED06E37393DE2E4688BC30" import="0">religion/reformations/UndergroundSect.xml</File>
+    <File md5="07E6740B026B63C17B8F99BFE6A158FF" import="0">religion/reformations/SacredSites.xml</File>
+    <File md5="0207BFBF35E14C638FD566880382E0C0" import="0">religion/reformations/WorldChurch.xml</File>
+    <File md5="70A521DC53418EE5755CEC507A1A1115" import="0">religion/reformations/_RemoveOldReformations.xml</File>
+    <File md5="9A50FF75F6CE10EEA9527E361BCEA429" import="0">resolutions/MoreFrequentVotes.xml</File>
+    <File md5="8A9C227217F62BBEAEA7632E901AD243" import="0">scoring_tweaks/Better_Score_Multipliers.xml</File>
+    <File md5="9D4C2E167980C603906133085E8E645E" import="0">resolutions/RemoveScholarsInResidence.xml</File>
+    <File md5="15DE0C48BD629559FD260D204A78D706" import="0">resolutions/WorldIdeologyChanges.xml</File>
+    <File md5="EB018174BED5625DF6C6CF0AF5F74AC2" import="0">social_policies/1_tradition/Tradition0_OpenerAndFinisher.xml</File>
+    <File md5="3D739156F088333E6E6A98FF32D4909A" import="0">social_policies/1_tradition/Tradition1_Oligarchy.xml</File>
+    <File md5="2660A1767850940B9598B24412D8F24D" import="0">social_policies/1_tradition/Tradition2_Legalism.xml</File>
+    <File md5="753E04F5136B10C196D0FB050D1F4929" import="0">social_policies/1_tradition/Tradition_SQL.sql</File>
+    <File md5="23096734DF7690E628C987515C4CE733" import="0">social_policies/1_tradition/Tradition_Tree.xml</File>
+    <File md5="A4BAF8FF7F8195F613B0E3BD7816F92A" import="0">social_policies/2_liberty/Liberty0_OpenerAndFinisher.xml</File>
+    <File md5="A2A2363FD2D564009855E7719EF82C55" import="0">social_policies/2_liberty/Liberty1_Republic.xml</File>
+    <File md5="4CF942C69EA80359D12A301FF6758B45" import="0">social_policies/2_liberty/Liberty4_Representation.xml</File>
+    <File md5="551CC17B1EFFFB72FFCDE222A1148E61" import="0">social_policies/2_liberty/Liberty5_Meritocracy.xml</File>
+    <File md5="A2741655122F75A3432A3932BCC8DE84" import="0">social_policies/3_honor/Honor0_OpenerAndFinisher.xml</File>
+    <File md5="EE8DF840F606412C00CAC25CBFB500ED" import="0">social_policies/3_honor/Honor1_WarriorCode.xml</File>
+    <File md5="115E22D62CCE09E032F4018B125A5439" import="0">social_policies/3_honor/Honor3_MilitaryCaste.xml</File>
+    <File md5="8C66187ADF70022F7A8435C857463090" import="0">social_policies/3_honor/Honor5_Discipline.xml</File>
+    <File md5="263BB6010268272DBD19ADDD0AA66579" import="0">social_policies/3_honor/Honor4_MilitaryTradition.xml</File>
+    <File md5="70C982575E4E125D3A9343082391BC10" import="0">social_policies/3_honor/Honor2_ProfessionalArmy.xml</File>
+    <File md5="6740F3C1522DD5878FD974DACA5F71B9" import="0">social_policies/3_honor/Honor_SQL.sql</File>
+    <File md5="21691FFBFF168BB8A44DC87BDA0F043D" import="0">social_policies/3_honor/Honor_Tree.xml</File>
+    <File md5="35B4138DA7ACB04EA59B468BF414ACA3" import="0">social_policies/4_piety/Piety5_Theocracy.xml</File>
+    <File md5="5E9E65C461A639800A0AD79081571F24" import="0">social_policies/4_piety/Piety0_OpenerAndFinisher.xml</File>
+    <File md5="4FDF7BA5D86E4B82EC6255443BEF777C" import="0">social_policies/4_piety/Piety1_OrganizedReligion.xml</File>
+    <File md5="D0CBE2D548022ACE33C1989A6A1A9A48" import="0">social_policies/4_piety/Piety2_MandateOfHeaven.xml</File>
+    <File md5="7842000CC99159A77E7D10D32C95E5C3" import="0">social_policies/4_piety/Piety3_ReligiousTolerance.xml</File>
+    <File md5="23509F6493A48CF6420F01310F705C2E" import="0">social_policies/4_piety/Piety4_Reformation.xml</File>
+    <File md5="658D5F5FCA9B80ECA798E7547F37DFCC" import="0">social_policies/4_piety/Piety_Tree.xml</File>
+    <File md5="ABDACF93BD9EF9A8CD34E9A8B8228382" import="0">social_policies/5_patronage/Patronage1_Philanthropy.xml</File>
+    <File md5="4D5AC6ED120DABC1123E928FC61400A7" import="0">social_policies/5_patronage/Patronage2_Scholasticism.xml</File>
+    <File md5="2910A0FCABC55A4ACFA04C8792553CB4" import="0">social_policies/5_patronage/Patronage3_MerchantConfederacy.xml</File>
+    <File md5="270E9D7CE61B5579529AC9B2F16C0FF1" import="0">social_policies/5_patronage/Patronage5_Consulates.lua</File>
+    <File md5="A8DF31266FEA34C352B3F63B300BCF76" import="0">social_policies/5_patronage/Patronage5_Consulates.xml</File>
+    <File md5="B5D1D6BFAB74CF226950D632F5A0A35B" import="0">social_policies/5_patronage/Patronage_SQL.sql</File>
+    <File md5="D34D43198F7C02E1CE542F99AD4DDA17" import="0">social_policies/5_patronage/Patronage0_OpenerAndFinisher.xml</File>
+    <File md5="D591370F5DE593DCD41E46C572859EC2" import="0">social_policies/5_patronage/Patronage_Tree.xml</File>
+    <File md5="BDED4B458ADCC265C86D27F8BB76A851" import="0">social_policies/6_aesthetics/Aesthetics0_OpenerAndFinisher.lua</File>
+    <File md5="0F4A91BA46071E61ADD3A6E974A2A3E2" import="0">social_policies/6_aesthetics/Aesthetics0_OpenerAndFinisher.xml</File>
+    <File md5="A9077915919821D7FB781B997BBE59C3" import="0">social_policies/6_aesthetics/Aesthetics1_FlourishingOfTheArts.xml</File>
+    <File md5="C8513CA32220C86FEA462D78237C7AB0" import="0">social_policies/6_aesthetics/Aesthetics2_CulturalCenters.xml</File>
+    <File md5="F23FBDF5E88486E60794C60E91F1CB38" import="0">social_policies/6_aesthetics/Aesthetics3_CulturalExchange.xml</File>
+    <File md5="26265FB1D8216B01FF2CDE5A98DB55EC" import="0">social_policies/6_aesthetics/Aesthetics4_ArtisticGenius.xml</File>
+    <File md5="5050336469907BA60BD0C8FE1CEC15F8" import="0">social_policies/6_aesthetics/Aesthetics_SQL.sql</File>
+    <File md5="5597DE35EE2993C1BD307E5596ACF808" import="0">social_policies/6_aesthetics/Aesthetics5_FineArts.xml</File>
+    <File md5="A9217606A23D67F242CC80B1AD581D86" import="0">social_policies/6_aesthetics/Aesthetics_Tree.xml</File>
+    <File md5="BAD83884E3234715B612BF38F49B6A54" import="0">social_policies/7_commerce/Commerce4_Entrepreneurship.lua</File>
+    <File md5="7471F18C6E198EEF97695AAFEBF9C44A" import="0">social_policies/7_commerce/Commerce5_Protectionism.xml</File>
+    <File md5="C727C3E9A13CC4ADDAC8BBEFA83ECFF9" import="0">social_policies/7_commerce/Commerce0_OpenerAndFinisher.xml</File>
+    <File md5="A592C78D5BA0304CAE44574C45FAB6AA" import="0">social_policies/7_commerce/Commerce2_SilkRoad.xml</File>
+    <File md5="84CAE73AFF9DA8BD2DFBE6EF7C5593DF" import="0">social_policies/7_commerce/Commerce3_Mercantilism.xml</File>
+    <File md5="89DCB46783E77302A99E457DCBA61D38" import="0">social_policies/7_commerce/Commerce4_Entrepreneurship.xml</File>
+    <File md5="92DBA062BD88B90479B138D391A5B90A" import="0">social_policies/7_commerce/Commerce_SQL.sql</File>
+    <File md5="725A7848EEA49405764A790334527CB2" import="0">social_policies/7_commerce/Commerce_Tree.xml</File>
+    <File md5="3BD25C6A0CB735EC6608FE4CE93136D4" import="0">social_policies/7_commerce/Commerce1_MercenaryArmy.xml</File>
+    <File md5="CA692537DBC186E1DD8B1E068F676943" import="0">social_policies/8_exploration/Exploration0_OpenerAndFinisher.xml</File>
+    <File md5="98800836111286A07DAA97049FB68041" import="0">social_policies/8_exploration/Exploration1_Colonialism.lua</File>
+    <File md5="27D07B546343FF9DA94A4105B38816DC" import="0">social_policies/8_exploration/Exploration1_Colonialism.xml</File>
+    <File md5="3BCF94A07C6DEA3A48E504B05B7C4789" import="0">social_policies/8_exploration/Exploration2_MaritimeInfrastructure.xml</File>
+    <File md5="DC7B51C92B54B0CBD3FA6CDFA93A2A2F" import="0">social_policies/8_exploration/Exploration4_NaviationSchool.xml</File>
+    <File md5="C9821C55CAAD4ADE90F50B57A3C7A829" import="0">social_policies/8_exploration/Exploration3_NavalTradition.xml</File>
+    <File md5="09E02C86A0721B7E7FA4D8AD4FF6E982" import="0">social_policies/8_exploration/Exploration5_TreasureFleets.lua</File>
+    <File md5="261C2AA1DCC72E879D0911B3C57D0EA6" import="0">social_policies/8_exploration/Exploration5_TreasureFleets.xml</File>
+    <File md5="BCC0965ED0D676D947A16D1AE38644B7" import="0">social_policies/8_exploration/Exploration_SQL.sql</File>
+    <File md5="E555CC10FC681E3E503987583DE3CF70" import="0">social_policies/8_exploration/Exploration_Tree.xml</File>
+    <File md5="1A3EBFA1B672B8C23CB4F563B14B9D11" import="0">social_policies/8_exploration/Exploration__Conquistador.xml</File>
+    <File md5="1E6F4B0FBFB1895223D7C536B89AF067" import="0">social_policies/8_exploration/Exploration__Icebreaker.lua</File>
+    <File md5="7855ABE8F0B2BD9234E3D5D4C2472CFA" import="0">social_policies/8_exploration/Exploration__Icebreaker.xml</File>
+    <File md5="4DB457C526BD4B8F688ED1AB341DB516" import="0">social_policies/9_rationalism/Rationalism5_Humanism.xml</File>
+    <File md5="1DAD09DB92F19FDBB07AAF416822C84E" import="0">social_policies/9_rationalism/Rationalism0_OpenerAndFinisher.xml</File>
+    <File md5="0F74D832DFC3B58245DD5C1BCE62A682" import="0">social_policies/9_rationalism/Rationalism2_ScientificRevolution.xml</File>
+    <File md5="96ACE3F023138683B2ECF7AA8BDD10F7" import="0">social_policies/9_rationalism/Rationalism3_FreeThought.xml</File>
+    <File md5="F66BB58B06DF7C1EBA033964E6CCAF6A" import="0">social_policies/9_rationalism/Rationalism_Tree.xml</File>
+    <File md5="9EA64A7B53741C89DDFFF27409903EB9" import="0">technologies/ArchaeologyChanges.xml</File>
+    <File md5="9AAE3C0032D1E67AF688ED744992C577" import="0">technologies/CompassChanges.xml</File>
+    <File md5="99280111924182A84B16975DBCDBC401" import="0">technologies/EmbassyTechChange.xml</File>
+    <File md5="FB5A03263AD002E6EDC9E5A137F38978" import="0">technologies/IronTechChanges.xml</File>
+    <File md5="513BF836C8D8684A3ACCA624BCDB9282" import="0">technologies/MobileTacticsChanges.xml</File>
+    <File md5="64CB9E25700292AD3EF06D9036E8444D" import="0">technologies/OpenBordersTechChange.xml</File>
+    <File md5="288A123DECDF9C9A7DD28E12E424418D" import="0">technologies/OpticsChanges.xml</File>
+    <File md5="4877D53481BA01490059363039392534" import="0">technologies/ParticlePhysicsChanges.xml</File>
+    <File md5="F8DB380F6B9A6F070E14EDEB04B7DCAC" import="0">technologies/RiflingChanges.xml</File>
+    <File md5="4377314C5FA430E72FEFF96693B8E2E3" import="0">technologies/SailingChanges.xml</File>
+    <File md5="D5643AEE84C7EF8F4F99DEF028FE1DDB" import="1">ui/AdvancedSetup.lua</File>
+    <File md5="7166B27E7F41E0C90E1AB7B6CE87084E" import="1">ui/CityStateDiploPopup.lua</File>
+    <File md5="9F0C9E40EF263F7EB32EBC45B9DBD6BD" import="1">ui/CityStateDiploPopup.xml</File>
+    <File md5="8AE50D1B0E3FE3104E5901185ECF4432" import="0">ui/CityStateDiploPopupText.xml</File>
+    <File md5="35F531495579E51663DBC89B959E0C06" import="1">ui/CityStateStatusHelper.lua</File>
+    <File md5="5BF1773EE0A9A8EC6CAB6AD5BE96B01A" import="0">ui/CityStateStatusHelperText.xml</File>
+    <File md5="DFB765B790D8AD1A12903240703D840A" import="0">ui/CIV5GameOptions_AI_Gimps.xml</File>
+    <File md5="16D1FB069CAAA9A26F5DA6C7FC86F60F" import="1">ui/CultureT100_Compatibility/CultureOverview.lua</File>
+    <File md5="AD74E1AB882511BDDD3658984CECF152" import="1">ui/CultureT100_Compatibility/EconomicGeneralInfo.lua</File>
+    <File md5="F991EE4AA196070755335C55ABCCAA69" import="1">ui/CultureT100_Compatibility/VictoryProgress.lua</File>
+    <File md5="7F555F8AC148659DBE14D097D0EDD678" import="1">ui/DiscussionDialog.lua</File>
+    <File md5="04606D0D268FDD10710D09EE9DE79815" import="1">ui/EnemyUnitPanel.lua</File>
+    <File md5="1FAD2B805ABD739BC0B3B74A33891833" import="1">ui/EUI_tooltips.lua</File>
+    <File md5="7A65BC471E79CC9CB9F2668F89B8BD91" import="0">ui/GameSetupUI.xml</File>
+    <File md5="D16540D2CCB4E629302FD315B54FA9E0" import="1">ui/InfoTooltipInclude.lua</File>
+    <File md5="84342DD69CABB5A9F7DAEB7D0AE258C0" import="1">ui/MiniMapPanel.lua</File>
+    <File md5="5693B26AA8235CF6E90CFD1782856F9B" import="1">ui/MiniMapPanel.xml</File>
+    <File md5="68001C8A6F5120EAD6B1423F26F3D87B" import="1">ui/ProductionPopup.lua</File>
+    <File md5="9E617A2974B9785A8C8CFF05E6160ABB" import="1">ui/SocialPolicyPopup.xml</File>
+    <File md5="E3EC818D6B3F59FC846B66B554AB09B4" import="0">ui/StagingRoomVersioning.xml</File>
+    <File md5="B5196C7E8D3F326B336EFE3067A4E35E" import="0">ui/StreamerPanelText.xml</File>
+    <File md5="490E1A6F4CC230C906BC42EA4E402858" import="1">ui/TopPanel.lua</File>
+    <File md5="2ACC89D1C4C7217915E4CA40FD1A9930" import="1">ui/UnitPanel.lua</File>
+    <File md5="D7A79C8341B23C164D7FC25E168F2D43" import="0">units/AfricanForestElephant.xml</File>
+    <File md5="2AB194691F4CA904BC9C9413EC9BD08B" import="0">units/ArchaeologistChanges.xml</File>
+    <File md5="01B46DA93282EE1ECEB9B3232EE8FBEC" import="0">units/ArmoredUnitChanges.xml</File>
+    <File md5="9E728C8760F4403A76446DB136911F85" import="0">units/BallistaChanges.xml</File>
+    <File md5="627EDE80BC67FB6E4AAF3F9ED33F2147" import="0">units/BatteringRamChanges.xml</File>
+    <File md5="00F53C8007DC5A16837F551CDC920552" import="0">units/CannonChanges.xml</File>
+    <File md5="41280A2176C228C371091781FFC8A6F0" import="0">units/CaravelChanges.xml</File>
+    <File md5="D3878D9C80AC0F1D5E64B3C6127661BD" import="0">units/CatapultChanges.xml</File>
+    <File md5="4D87F5AD581628013CD07797B64010C2" import="0">units/ChuKoNuChanges.xml</File>
+    <File md5="512C9F02CE06E0FD1CE1EB08CDBF8CCE" import="0">units/FrigateChanges.xml</File>
+    <File md5="3735973D6522486F7250E9298639FECE" import="0">units/GiantDeathRobotChanges.xml</File>
+    <File md5="8BB990A58751BD1BFF9BC510ACDC944A" import="0">units/GunpowderUnitChanges.xml</File>
+    <File md5="0E15E3FB963CAEB6921177E47DD192DB" import="0">units/HakkapeliittaChanges.xml</File>
+    <File md5="F23427F662CD65CB095C4FA5767011D9" import="0">units/HelicopterGunshipChanges.xml</File>
+    <File md5="22C11DEB312C42A58878F1FEC34CD0C5" import="0">units/InfantryChanges.xml</File>
+    <File md5="75E8BB36BFD596B010E63C09463ECE26" import="0">units/JanissaryChanges.xml</File>
+    <File md5="8F59460BC3395070B21AADB537A39926" import="0">units/KrisSwordsmanChanges.xml</File>
+    <File md5="4F905DD1779B8D8A5E0EAE0D1CC2CE26" import="0">units/LandshipChanges.xml</File>
+    <File md5="0C88D81A2A64C735F588F2A9B9322ADB" import="0">units/LandsknechtChanges.xml</File>
+    <File md5="F91857E1DB2FF1273243C7D82F5DE2A7" import="0">units/MarineChanges.xml</File>
+    <File md5="9D130FE56B38C36F7D9F274F9C012019" import="0">units/MissileCruiserChanges.xml</File>
+    <File md5="FD7B1FCA2C8840647A490AB90DC6A21A" import="0">units/MohawkWarriorChanges.xml</File>
+    <File md5="59D465DA526E7B4C89C29DCFCDDF92CC" import="0">units/MountedRangedChanges.xml</File>
+    <File md5="D00FFFFF25592E700FCE4763DD605E29" import="0">units/NuclearMissileChanges.xml</File>
+    <File md5="065F2247F79A29CDD2410A9F21F56B6B" import="0">units/Pioneer.xml</File>
+    <File md5="7686AABA3E4FF68FF5097E658665EFF8" import="0">units/PracinhaChanges.xml</File>
+    <File md5="701D475D2B862641B0C49025F22DF2B5" import="0">units/RemoveAtomicBombs.xml</File>
+    <File md5="4AEDCAF07C72718267DBEA00EA8BD736" import="0">units/RocketArtilleryChanges.xml</File>
+    <File md5="2212C1811CE50523CD2310E2B2A9EE27" import="0">units/SipahiChanges.xml</File>
+    <File md5="5D7F760740027A044C36F5C61586000E" import="0">units/StealthBomberChanges.xml</File>
+    <File md5="1D2E8933D032CBC1C217CB29568BF62B" import="0">units/SwordsmanChanges.xml</File>
+    <File md5="391893E38E44BED589DC4677A0B3136F" import="0">units/TrebuchetChanges.xml</File>
+    <File md5="E5DA3A57DAC9F2CAC406764B15BED1C1" import="0">units/WarElephantChanges.xml</File>
+    <File md5="D2AA5A90E09C98FC415A8DF4D224B1B3" import="0">units/WingedHussarChanges.xml</File>
+    <File md5="0FE1D3D968CEC0860DA6E028351CEA9B" import="0">units/WorkBoatChanges.xml</File>
+    <File md5="49D23D0600EA859EDEC5F73EC6A77A8E" import="0">units/WorkerChanges.xml</File>
+    <File md5="A78DAB7E51B6605EBFEA1DFCA13EDD71" import="0">unit_promotions/HeavyChargeDownhill.sql</File>
+    <File md5="9F7463736D0F478A307ED7CF6464824A" import="0">unit_promotions/AirRepairChanges.xml</File>
+    <File md5="BB596C1F47A247FE2AA1528E8F74DBFF" import="0">unit_promotions/AntiTankChanges.xml</File>
+    <File md5="A2805CC741795B770E7D9B884E8869C6" import="0">unit_promotions/FastGeneralChanges.xml</File>
+    <File md5="881C43393DAB842E27519377A12A1475" import="0">unit_promotions/HeavyChargeDownhill.xml</File>
+    <File md5="5AFCE6AB787DA239CA3D123AFF8CF369" import="0">unit_promotions/LogisticsChanges.xml</File>
+    <File md5="DB4E6391F1DA199CF84E484D94372287" import="0">unit_promotions/MergeAmbushAndFormation.xml</File>
+    <File md5="11F1E8EC6A13C736CDC39F08DD08933A" import="0">unit_promotions/NavalMeleeChanges.xml</File>
+    <File md5="5AA080D57DECBB10E734C9513B10AA43" import="0">unit_promotions/RemoveBlitzFromParadrops.xml</File>
+    <File md5="0DC196D3C1E1391170ED1564DF4E76F6" import="0">wonders_national/ArtistsGuild.xml</File>
+    <File md5="DB695D6723498F3A50CCBFDBFF437339" import="0">wonders_national/CircusMaximusChanges.xml</File>
+    <File md5="219E84D71743459EF39B39C84E0FC3B2" import="0">wonders_national/EastIndiaCompanyChanges.xml</File>
+    <File md5="FA47D03401A60C139F056538236A8CC6" import="0">wonders_national/GrandTempleChanges.xml</File>
+    <File md5="850C1C59221C6AD6193BE5A27533E463" import="0">wonders_national/HermitageChanges.xml</File>
+    <File md5="6534157D831DE26EE136F29D95E90F72" import="0">wonders_national/HeroicEpicChanges.xml</File>
+    <File md5="4853BB55D82A1B1BBAA6F8D4826EBCD1" import="0">wonders_national/IronworksChanges.xml</File>
+    <File md5="07531C79EA17508A526CE8BCD162680A" import="0">wonders_national/MusiciansGuild.xml</File>
+    <File md5="8570E11EC4EB78A4CF7614342128F292" import="0">wonders_national/NationalCollegeChanges.xml</File>
+    <File md5="D6E74FA9FEE8ABC3B1A9A5E887AD3314" import="0">wonders_national/NationalEpic.xml</File>
+    <File md5="E58DCC8CBB10F49697B84A09EFACC11B" import="0">wonders_national/NationalIntelligenceAgencyChanges.xml</File>
+    <File md5="188D893AA456A56CEE35E4E939FF9B89" import="0">wonders_national/NationalVisitorCenterChanges.xml</File>
+    <File md5="9746EFC72080BC70F4A13FA48D8FAABB" import="0">wonders_national/OxfordUniversityChanges.xml</File>
+    <File md5="5317650B4391CE56A55F7A8ED714243A" import="0">wonders_national/WritersGuildChanges.xml</File>
+    <File md5="2758F8C14969C55F9B9BAB0D68326F09" import="0">wonders_natural/BarringerCraterChanges.xml</File>
+    <File md5="642D7099450BC16C538E13D7AD9DC843" import="0">wonders_natural/ElDoradoChanges.xml</File>
+    <File md5="22E0FC4529C3C73BA2D24BD658644399" import="0">wonders_natural/FountainOfYouthChanges.xml</File>
+    <File md5="88E82C1C675ED19920BD649BEB906FB9" import="0">wonders_natural/FujiChanges.xml</File>
+    <File md5="1FCB04B9B09B442E827E7A9DF78BED03" import="0">wonders_natural/OldFaithfulChanges.xml</File>
+    <File md5="805FCA0697F66E31F2C06192D6F480C1" import="0">wonders_natural/GrandMesaChanges.xml</File>
+    <File md5="F55560455036510C2D6A65D5FE659EA0" import="0">wonders_natural/KrakatoaChanges.xml</File>
+    <File md5="62EBE86606AF0D81D2B6B1D34282E3B0" import="0">wonders_natural/SriPadaChanges.xml</File>
+    <File md5="AEA381565647FA3AA70CCBE11D7590E8" import="0">wonders_world/AngkorWatChanges.xml</File>
+    <File md5="4C869948233E0D98A3DEDA3BEB5C1E4F" import="0">wonders_world/BigBenChanges.xml</File>
+    <File md5="F8ED64F66FF20B84F328B437BEDA389A" import="0">wonders_world/GreatLibraryChanges.xml</File>
+    <File md5="6939A6A2CA6A3B9D512963E2E0FCD038" import="0">wonders_world/GreatLighthouseChanges.xml</File>
+    <File md5="D3579D5CF35C938BF23706F3507C5A5B" import="0">wonders_world/GreatWallChanges.lua</File>
+    <File md5="98517BBC80C753247F8D4378E6DFCCFB" import="0">wonders_world/GreatWallChanges.xml</File>
+    <File md5="08F75056103262E5C90083CD4F675E41" import="0">wonders_world/HangingGardensChanges.xml</File>
+    <File md5="3E08E07440C1AA2DB0C6B9440D4193FE" import="0">wonders_world/KremlinChanges.xml</File>
+    <File md5="360EF81679F64168260045EE9C916AAF" import="0">wonders_world/LeaningTowerChanges.xml</File>
+    <File md5="557C677CCEF2D60F90442F33BC89B2A3" import="0">wonders_world/NotreDameChanges.xml</File>
+    <File md5="6005DF6E5A8D5474580E9F0D53E7BD8C" import="0">wonders_world/OracleChanges.xml</File>
+    <File md5="050FC1FFB0459E20946B0271644B6DAF" import="0">wonders_world/PorcelainTowerChanges.xml</File>
+    <File md5="57EDD8D23885704C8B9C1BE7BD140CA5" import="0">wonders_world/PyramidsChanges.xml</File>
+    <File md5="BA9724857EE7E65EE9F189C48559BA59" import="0">wonders_world/StatueOfLibertyChanges.xml</File>
+    <File md5="CC61502531037A705AE779EB61D5A5DE" import="0">wonders_world/StonehengeChanges.xml</File>
+    <File md5="A76D4F2E26F4A5BC62647B3B477E9711" import="0">wonders_world/HubbleChanges.xml</File>
+    <File md5="0FDACE0BC2F7CE8B5EE327481A6C7EEA" import="0">wonders_world/Volkshalle.xml</File>
+    <File md5="A97DFB45577AFC85E493F1A7A2B529CF" import="0">xml_localization_template.xml</File>
+    <File md5="B8A9E91134E7C89440A0F95470D5E47B" import="1">zlib1.dll</File>
+    <File md5="A74A63BAD81BAEB65A2F6FA869B3E840" import="1">_art/DOM_Mansa_Musa.dds</File>
+    <File md5="86DDD42A60F7F48DE4B2D6443446EA2A" import="1">_art/MaliAlphaAtlas128.dds</File>
+    <File md5="2107952613F6116301FE0B3418101F13" import="1">_art/MaliAlphaAtlas214.dds</File>
+    <File md5="8297EB2A4AAED23A139D8C2A0FA1B307" import="1">_art/MaliAlphaAtlas256.dds</File>
+    <File md5="364FB254286BC5C0F8B060D198D566D2" import="1">_art/MaliAlphaAtlas32.dds</File>
+    <File md5="A28048E8814C28D8434B66FD1E48237D" import="1">_art/MaliAlphaAtlas45.dds</File>
+    <File md5="7C2FF6BB1A879FDE5B9FF2DE88A1D509" import="1">_art/MaliAlphaAtlas64.dds</File>
+    <File md5="629FB587F9BDC0DA9F5F9981C2FEE16B" import="1">_art/MaliAlphaAtlas80.dds</File>
+    <File md5="1626093835F1743F07B8994936462687" import="1">_art/Mali_Mansa_Musa_Scene.dds</File>
+    <File md5="0568831D94B464AD2C9D8B6C2208D674" import="1">_art/MapMali360x412.dds</File>
+    <File md5="8179E18E5523AA89EC14E819F5CA7D47" import="0">_art/NQAtlas.xml</File>
+    <File md5="8FB6B32165C95BE687370CE441E45D86" import="1">_art/NQAtlas128.dds</File>
+    <File md5="2DC432C8DADD948F10920FC921E61A6D" import="1">_art/NQAtlas214.dds</File>
+    <File md5="6271BA2C12D6B06902CF5EFF30FCD783" import="1">_art/NQAtlas256.dds</File>
+    <File md5="852AB8BE386B439F15FAB29D589D018B" import="1">_art/NQAtlas32.dds</File>
+    <File md5="EC7CC32072DA9870D17A05AFDDC537E1" import="1">_art/NQAtlas45.dds</File>
+    <File md5="A73542B44CF6886640CE05E0A9C3C75C" import="1">_art/NQAtlas64.dds</File>
+    <File md5="5EF5C70DF844E900FB46C12C50527538" import="1">_art/NQAtlas80.dds</File>
+    <File md5="3697DFC51E49AA80175D61FF42554F81" import="1">_art/NQUnitFlagAtlas32.dds</File>
+    <File md5="997D09AF5E4637A13936E9B2B774417D" import="0">_from_AuI/Flavor Changes/AuI_CIV5Buildings_Flavors.xml</File>
+    <File md5="A5F2FA59C0F2931C80C496142AA24AFF" import="0">_from_AuI/Flavor Changes/AuI_CIV5Flavors_Tourism.xml</File>
+    <File md5="D211CA36E2C7DE9A332CBF109A1AA4EF" import="0">_from_AuI/Flavor Changes/AuI_CIV5Leaders_Flavors.xml</File>
+    <File md5="A3CA3D53A53FD8F2A44F606EF319C6FD" import="0">_from_AuI/Flavor Changes/AuI_CIV5Policies_Flavors.xml</File>
+    <File md5="022FC4039E47EB6BF6A7FE6A8EBF41CE" import="0">_from_AuI/Flavor Changes/AuI_CIV5Technologies_Flavors.xml</File>
+    <File md5="DA8699DC69DA9F8022F7778EFE2BD80C" import="0">_from_AuI/Flavor Changes/AuI_CIV5Units_Flavors.xml</File>
+    <File md5="F19181823E1C5519A115C2AE2B378658" import="0">_from_AuI/AuI_CIV5AICityStrategies.xml</File>
+    <File md5="A39418ECA1C0A6A7F3D60305232F6D43" import="0">_from_AuI/AuI_CIV5AIEconomicStrategies.xml</File>
+    <File md5="8D0408216EC910351979DFC76D2E884E" import="0">_from_AuI/AuI_CIV5AIGrandStrategies.xml</File>
+    <File md5="5A63E6B5F51010DE229AA30BEC98DD72" import="0">_from_AuI/AuI_CIV5AIMilitaryStrategies.xml</File>
+    <File md5="33DD94D2261378B2FCFB117C8AB735EE" import="0">_from_AuI/AuI_CIV5CitySpecializations.xml</File>
+    <File md5="F00164C275321FC8704F744D9C8C8DED" import="0">_from_AuI/AuI_CIV5MultiUnitFormations.xml</File>
+    <File md5="9A6C3FFC72E82B4A7F4BC1EB7D53151E" import="0">_from_AuI/AuI_CIV5TacticalMoves.xml</File>
+    <File md5="66C46EE74307AFF546BC901FCF0ED324" import="0">_from_AuI/AuI_CIV5Units.xml</File>
+    <File md5="963BC3CEE71B665D9365574B780DC585" import="0">_from_AuI/AuI_GlobalAIDefines.xml</File>
+    <File md5="55AE22C43A6BEB1167F3CB513C73D654" import="0">_from_AuI/AuI_GlobalDefines.xml</File>
+    <File md5="140CAE485AFCC60EE1DC4A34491E817F" import="0">_from_AuI/AuI_GlobalDiplomacyAIDefines.xml</File>
+    <File md5="8C140A618C4E9DC50C655D608904944A" import="0">_sql/BeliefsChanges.sql</File>
+    <File md5="82079C00AAF3A139E99943C1D8A4AA7B" import="0">_sql/BuildingsChanges.sql</File>
+    <File md5="DD7372460664F516FAEF78B19A9BD56A" import="0">_sql/ChopChanges.sql</File>
+    <File md5="4E82F8F5504F0C89869F75495B9220F2" import="0">_sql/PoliciesChanges.sql</File>
+    <File md5="CCD644A18872B82CA9F0D23BF4608338" import="0">_sql/Policies_ExtraTourismPerGreatWork.sql</File>
+    <File md5="239340E081D4A6F6C8DAC54E77AA6A84" import="0">_sql/TechnologyDiscountsByPolicy.sql</File>
+    <File md5="C1830AA4ABD4BBC8EFC5D73914BCB0FE" import="0">_sql/TraitsChanges.sql</File>
+    <File md5="4D879B40C784D8CFB98EEE67E331C59C" import="0">_sql/UnitPromotionsChanges.sql</File>
+    <File md5="4763C0209D6940B0EF7D9D83BE31145F" import="0">_sql/UnitsChanges.sql</File>
+    <File md5="21C86CBF9C0AF30EC0C197F51ABDA5A3" import="0">_sql/Yield_MinCityOnHillsAdjust.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>unit_promotions/RemoveBlitzFromParadrops.xml</UpdateDatabase>
+      <UpdateDatabase>_art/NQAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>_sql/BeliefsChanges.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/BuildingsChanges.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/ChopChanges.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/Policies_ExtraTourismPerGreatWork.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/PoliciesChanges.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/TechnologyDiscountsByPolicy.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/TraitsChanges.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/UnitPromotionsChanges.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/UnitsChanges.sql</UpdateDatabase>
+      <UpdateDatabase>_sql/Yield_MinCityOnHillsAdjust.sql</UpdateDatabase>
+      <UpdateDatabase>ai/GameOption_DisableRecklessExpander.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/AmphitheaterChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/BroadcastTowerChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/CandiChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/CaravansaryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/CeilidhHallChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/ConstabularyChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/CourthouseChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/FaluGruva.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/FloatingGardensChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/GardenChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/GranaryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/HarborChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/HuntingLodge.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/LighthouseChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/MarketChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/MintChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/MughalFortChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/MuseumChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/Observatory_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>buildings/ObservatoryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/OperaHouseChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/PoliceStationChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/ResearchLabChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/RoyalLibraryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/ShrineChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/StadiumChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/StoneworksChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/UniversityChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/WatermillChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/WindmillChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/ZooChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/BuildingTreasury.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/CivilizationMali.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/LeaderMansaMusa.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/Mali_Mansa_Musa_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/MaliCities.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/MaliCivilopedia.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/MaliColors.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/MaliMusic.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/MaliSpies.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/TraitGoldenPilgrimage.xml</UpdateDatabase>
+      <UpdateDatabase>civs/Mali/UnitSkirmisher.xml</UpdateDatabase>
+      <UpdateDatabase>civs/AmericaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/AssyriaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/AustriaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/BabylonChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/BrazilChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/CarthageChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/ChinaChanges.sql</UpdateDatabase>
+      <UpdateDatabase>civs/ChinaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/DenmarkChanges.sql</UpdateDatabase>
+      <UpdateDatabase>civs/DenmarkChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/EthiopiaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/France_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>civs/FranceChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/GermanyChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/IndiaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/IndonesiaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/IroquoisChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/JapanChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/KoreaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/MoroccoChanges.sql</UpdateDatabase>
+      <UpdateDatabase>civs/MoroccoChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/NetherlandsChanges.sql</UpdateDatabase>
+      <UpdateDatabase>civs/NetherlandsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/OttomanChanges.sql</UpdateDatabase>
+      <UpdateDatabase>civs/OttomanChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/PolandChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/PolynesiaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/PortugalChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/RemoveVenice.xml</UpdateDatabase>
+      <UpdateDatabase>civs/SonghaiChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/SpainChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/SwedenChanges.sql</UpdateDatabase>
+      <UpdateDatabase>civs/SwedenChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/VeniceChanges.xml</UpdateDatabase>
+      <UpdateDatabase>features/ChopChanges.xml</UpdateDatabase>
+      <UpdateDatabase>features/LakeChanges.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/GoodyHutChanges.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/InlandSeaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/RemoveRAs.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/RemoveUnitSupplyLimit.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/ThemingBonusChanges.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/WetLandsRegion.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/WLTKDChanges.xml</UpdateDatabase>
+      <UpdateDatabase>great_people/CitizenSpecialistChanges.xml</UpdateDatabase>
+      <UpdateDatabase>great_people/GreatEngineerChanges.xml</UpdateDatabase>
+      <UpdateDatabase>great_people/GreatGeneralChanges.xml</UpdateDatabase>
+      <UpdateDatabase>great_people/GreatHumanitarian.xml</UpdateDatabase>
+      <UpdateDatabase>great_people/GreatMerchantChanges.xml</UpdateDatabase>
+      <UpdateDatabase>great_people/GreatProphetChanges.xml</UpdateDatabase>
+      <UpdateDatabase>great_people/GreatScientistChanges.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/IdeologyTriggerChanges.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T1_1EliteForces.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T1_2GunboatDiplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T1_3Futurism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T1_4UniversalHealthcare.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T1_5IndustrialEspionage.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T1_6ClientStates.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T1_7Jingoism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T1_8ThirdAlternative.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T2_1TotalWar.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T2_2UnitedFront.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T2_3WarHero.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T2_4Facism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T2_5Mobilization.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T3_1LightningWarfare.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T3_2Partisans.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T3_3CultOfPersonality.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/autocracy/T3_4PoliceState.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T1_1EconomicUnion.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T1_2Liberalism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T1_3Consumerism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T1_4UniversalHealthcare.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T1_5CovertAction.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T1_6VolunteerArmy.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T1_7FreeTrade.sql</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T1_7FreeTrade.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T2_1VoiceOfDemocracy.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T2_2FreeMarket.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T2_3AvanteGarde.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T2_4NewDeal.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T2_5UniversalSuffrage.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T3_1TreatyOrganization.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T3_2SpaceProcurements.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T3_3MediaCulture.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/freedom/T3_4Capitalism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T1_1AcademyOfSciences.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T1_2RedArmy.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T1_3Utopianism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T1_4UniversalHealthcare.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T1_5DoubleAgents.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T1_6Collectivization.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T1_7IronCurtain.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T1_8FiveYearPlan.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T2_1WorkersFaculties.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T2_2PatrioticWar.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T2_3SocialistRealism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T2_4Communism.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T2_5PartyLeadership.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T3_2SatelliteStates.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T3_3CulturalRevolution.xml</UpdateDatabase>
+      <UpdateDatabase>ideologies/order/T3_4MinistryOfRailways.xml</UpdateDatabase>
+      <UpdateDatabase>improvements/CampsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>improvements/CustomsHouseChanges.xml</UpdateDatabase>
+      <UpdateDatabase>improvements/FishingBoatsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>improvements/ImprovementBuildTimesChanges.xml</UpdateDatabase>
+      <UpdateDatabase>improvements/ManufactoryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>improvements/PlantationChanges.xml</UpdateDatabase>
+      <UpdateDatabase>projects/WorldsFairChanges.xml</UpdateDatabase>
+      <UpdateDatabase>religion/founders/_RemoveOldFounders.xml</UpdateDatabase>
+      <UpdateDatabase>religion/founders/CharitableMissions.xml</UpdateDatabase>
+      <UpdateDatabase>religion/founders/DefenderOfTheFaith.xml</UpdateDatabase>
+      <UpdateDatabase>religion/founders/InitiationRites.xml</UpdateDatabase>
+      <UpdateDatabase>religion/founders/Messiah.xml</UpdateDatabase>
+      <UpdateDatabase>religion/founders/MissionaryZeal.sql</UpdateDatabase>
+      <UpdateDatabase>religion/founders/MissionaryZeal.xml</UpdateDatabase>
+      <UpdateDatabase>religion/founders/ReligiousSettlements.sql</UpdateDatabase>
+      <UpdateDatabase>religion/founders/ReligiousSettlements.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/_RemoveOldEnhancers.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/_RemoveOldFollowers.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/Basilicas.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/Cathedrals.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/DivineInspiration.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/FaithHealers.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/FeedTheWorld.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/Gurdwaras.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/Guruship.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/HolyWarriors.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/LiturgicalDrama.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/Madrassas.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/Mosques.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/Pagodas.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/ReligiousCenter.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/ReligiousCommunity.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/SacredWaters.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/SpiritualDialogue.xml</UpdateDatabase>
+      <UpdateDatabase>religion/followers/Synagogues.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/DalaiLama.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/DeusVult.sql</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/DeusVult.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/Dharma.sql</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/Dharma.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/PapalPrimacy.sql</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/PapalPrimacy.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/Pilgrimage.sql</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/Pilgrimage.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/PromisedLand.sql</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/PromisedLand.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/Reliquary.xml</UpdateDatabase>
+      <UpdateDatabase>religion/enhancers/UnityOfTheProphets.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/_RemoveOldPantheons.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/EarthMother.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/GoddessOfFestivals.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/GoddessOfLove.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/God-King.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/GodOfTheSea.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/MonumentToTheGods.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/MysticRituals.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/RainDancing.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/ReligiousIdols.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/RiteOfSpring.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/SacredPath.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/SpiritAnimals.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/StoneCircles.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/SunGod.xml</UpdateDatabase>
+      <UpdateDatabase>religion/pantheons/VisionQuests.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/_RemoveOldReformations.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/ApostolicPalace.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/HousesOfWorship.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/ReligiousUnity.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/SacredSites.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/SwordsToPlowshares.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/UndergroundSect.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/WorldChurch.xml</UpdateDatabase>
+      <UpdateDatabase>religion/AllowExtraReligions.xml</UpdateDatabase>
+      <UpdateDatabase>religion/FaithPurchasingChanges.xml</UpdateDatabase>
+      <UpdateDatabase>religion/FoundingPantheonChanges.xml</UpdateDatabase>
+      <UpdateDatabase>religion/InquisitorChanges.xml</UpdateDatabase>
+      <UpdateDatabase>religion/ProphetSpawnChanges.xml</UpdateDatabase>
+      <UpdateDatabase>resolutions/MoreFrequentVotes.xml</UpdateDatabase>
+      <UpdateDatabase>resolutions/RemoveScholarsInResidence.xml</UpdateDatabase>
+      <UpdateDatabase>resolutions/WorldIdeologyChanges.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/ArchaeologyChanges.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/CompassChanges.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/EmbassyTechChange.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/IronTechChanges.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/MobileTacticsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/OpenBordersTechChange.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/OpticsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/ParticlePhysicsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/RiflingChanges.xml</UpdateDatabase>
+      <UpdateDatabase>technologies/SailingChanges.xml</UpdateDatabase>
+      <UpdateDatabase>ui/CityStateDiploPopupText.xml</UpdateDatabase>
+      <UpdateDatabase>ui/CityStateStatusHelperText.xml</UpdateDatabase>
+      <UpdateDatabase>ui/GameSetupUI.xml</UpdateDatabase>
+      <UpdateDatabase>ui/SocialPolicyPopup.xml</UpdateDatabase>
+      <UpdateDatabase>ui/StagingRoomVersioning.xml</UpdateDatabase>
+      <UpdateDatabase>ui/StreamerPanelText.xml</UpdateDatabase>
+      <UpdateDatabase>unit_promotions/AirRepairChanges.xml</UpdateDatabase>
+      <UpdateDatabase>unit_promotions/AntiTankChanges.xml</UpdateDatabase>
+      <UpdateDatabase>unit_promotions/FastGeneralChanges.xml</UpdateDatabase>
+      <UpdateDatabase>unit_promotions/HeavyChargeDownhill.sql</UpdateDatabase>
+      <UpdateDatabase>unit_promotions/HeavyChargeDownhill.xml</UpdateDatabase>
+      <UpdateDatabase>unit_promotions/LogisticsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>unit_promotions/MergeAmbushAndFormation.xml</UpdateDatabase>
+      <UpdateDatabase>unit_promotions/NavalMeleeChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/AfricanForestElephant.xml</UpdateDatabase>
+      <UpdateDatabase>units/ArchaeologistChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/ArmoredUnitChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/BallistaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/BatteringRamChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/CannonChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/CaravelChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/CatapultChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/ChuKoNuChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/FrigateChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/GiantDeathRobotChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/GunpowderUnitChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/HakkapeliittaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/HelicopterGunshipChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/InfantryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/JanissaryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/KrisSwordsmanChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/LandshipChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/LandsknechtChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/MarineChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/MissileCruiserChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/MohawkWarriorChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/MountedRangedChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/NuclearMissileChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/Pioneer.xml</UpdateDatabase>
+      <UpdateDatabase>units/PracinhaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/RemoveAtomicBombs.xml</UpdateDatabase>
+      <UpdateDatabase>units/RocketArtilleryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/SipahiChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/StealthBomberChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/SwordsmanChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/TrebuchetChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/WarElephantChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/WingedHussarChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/WorkBoatChanges.xml</UpdateDatabase>
+      <UpdateDatabase>units/WorkerChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/ArtistsGuild.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/CircusMaximusChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/EastIndiaCompanyChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/GrandTempleChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/HermitageChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/HeroicEpicChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/IronworksChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/MusiciansGuild.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/NationalCollegeChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/NationalEpic.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/NationalIntelligenceAgencyChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/NationalVisitorCenterChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/OxfordUniversityChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_national/WritersGuildChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_natural/BarringerCraterChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_natural/ElDoradoChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_natural/FountainOfYouthChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_natural/FujiChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_natural/GrandMesaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_natural/KrakatoaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_natural/OldFaithfulChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_natural/SriPadaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/AngkorWatChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/BigBenChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/GreatLibraryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/GreatLighthouseChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/GreatWallChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/HangingGardensChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/HubbleChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/KremlinChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/LeaningTowerChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/NotreDameChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/OracleChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/PorcelainTowerChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/PyramidsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/StatueOfLibertyChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/StonehengeChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders_world/Volkshalle.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/1_tradition/Tradition_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>social_policies/1_tradition/Tradition_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/1_tradition/Tradition0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/1_tradition/Tradition1_Oligarchy.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/1_tradition/Tradition2_Legalism.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/2_liberty/Liberty0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/2_liberty/Liberty1_Republic.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/2_liberty/Liberty4_Representation.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/2_liberty/Liberty5_Meritocracy.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/3_honor/Honor_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>social_policies/3_honor/Honor_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/3_honor/Honor0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/3_honor/Honor1_WarriorCode.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/3_honor/Honor2_ProfessionalArmy.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/3_honor/Honor3_MilitaryCaste.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/3_honor/Honor4_MilitaryTradition.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/3_honor/Honor5_Discipline.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/4_piety/Piety_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/4_piety/Piety0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/4_piety/Piety1_OrganizedReligion.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/4_piety/Piety2_MandateOfHeaven.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/4_piety/Piety3_ReligiousTolerance.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/4_piety/Piety4_Reformation.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/4_piety/Piety5_Theocracy.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/5_patronage/Patronage_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>social_policies/5_patronage/Patronage_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/5_patronage/Patronage0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/5_patronage/Patronage1_Philanthropy.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/5_patronage/Patronage2_Scholasticism.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/5_patronage/Patronage3_MerchantConfederacy.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/5_patronage/Patronage5_Consulates.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/6_aesthetics/Aesthetics_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>social_policies/6_aesthetics/Aesthetics_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/6_aesthetics/Aesthetics0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/6_aesthetics/Aesthetics1_FlourishingOfTheArts.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/6_aesthetics/Aesthetics2_CulturalCenters.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/6_aesthetics/Aesthetics3_CulturalExchange.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/6_aesthetics/Aesthetics4_ArtisticGenius.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/6_aesthetics/Aesthetics5_FineArts.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/7_commerce/Commerce_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>social_policies/7_commerce/Commerce_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/7_commerce/Commerce0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/7_commerce/Commerce1_MercenaryArmy.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/7_commerce/Commerce2_SilkRoad.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/7_commerce/Commerce3_Mercantilism.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/7_commerce/Commerce4_Entrepreneurship.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/7_commerce/Commerce5_Protectionism.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration__Conquistador.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration1_Colonialism.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration2_MaritimeInfrastructure.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration3_NavalTradition.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration4_NaviationSchool.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/8_exploration/Exploration5_TreasureFleets.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/9_rationalism/Rationalism_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/9_rationalism/Rationalism0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/9_rationalism/Rationalism2_ScientificRevolution.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/9_rationalism/Rationalism3_FreeThought.xml</UpdateDatabase>
+      <UpdateDatabase>social_policies/9_rationalism/Rationalism5_Humanism.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/Flavor Changes/AuI_CIV5Flavors_Tourism.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/Flavor Changes/AuI_CIV5Buildings_Flavors.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/Flavor Changes/AuI_CIV5Leaders_Flavors.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/Flavor Changes/AuI_CIV5Policies_Flavors.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/Flavor Changes/AuI_CIV5Technologies_Flavors.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/Flavor Changes/AuI_CIV5Units_Flavors.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_CIV5AICityStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_CIV5AIEconomicStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_CIV5AIGrandStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_CIV5AIMilitaryStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_CIV5CitySpecializations.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_CIV5MultiUnitFormations.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_CIV5TacticalMoves.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_CIV5Units.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_GlobalAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_GlobalDefines.xml</UpdateDatabase>
+      <UpdateDatabase>_from_AuI/AuI_GlobalDiplomacyAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>scoring_tweaks/Better_Score_Multipliers.xml</UpdateDatabase>
+      <UpdateDatabase>ui/CIV5GameOptions_AI_Gimps.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CIV5GameOptions_Relative_TurnTimers.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CIV5GameOptions_AutoPause_on_Active_Disconnect.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CIV5GameOptions_Randomized_Turn_Activation.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CIV5GameOptions_Capitol_Gifting.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CIV5GameOptions_No_Tech_Cost_Total_Known_Team_Modifier.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/AdjustKnownTechCostDiscount.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CityStateChanges.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CIV5GameOptions_Ranged_Counterattacks.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CIV5GameOptions_Binomial_RNG_Combat.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/CIV5GameOptions_Automation_Resets_TurnTimer.xml</UpdateDatabase>
+      <UpdateDatabase>gameplay/FlatlandCityExtraFood.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="social_policies/5_patronage/Patronage5_Consulates.xml">
+      <Name>Patronage5_Consulates</Name>
+      <Description>Patronage5_Consulates</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="social_policies/6_aesthetics/Aesthetics0_OpenerAndFinisher.xml">
+      <Name>Aesthetics0_OpenerAndFinisher</Name>
+      <Description>Aesthetics0_OpenerAndFinisher</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="social_policies/8_exploration/Exploration5_TreasureFleets.xml">
+      <Name>Exploration5_TreasureFleets</Name>
+      <Description>Exploration5_TreasureFleets</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="wonders_world/GreatWallChanges.xml">
+      <Name>GreatWallChanges</Name>
+      <Description>GreatWallChanges</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="social_policies/8_exploration/Exploration1_Colonialism.xml">
+      <Name>Exploration1_Colonialism</Name>
+      <Description>Exploration1_Colonialism</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="social_policies/7_commerce/Commerce4_Entrepreneurship.xml">
+      <Name>Commerce4_Entrepreneurship</Name>
+      <Description>Commerce4_Entrepreneurship</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="ideologies/freedom/T1_7FreeTrade.xml">
+      <Name>T1_7FreeTrade</Name>
+      <Description>T1_7FreeTrade</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="civs/Mali/BuildingTreasury.xml">
+      <Name>BuildingTreasury</Name>
+      <Description>BuildingTreasury</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="ideologies/order/T3_2SatelliteStates.xml">
+      <Name>T3_2_SatelliteStates</Name>
+      <Description>T3_2_SatelliteStates</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

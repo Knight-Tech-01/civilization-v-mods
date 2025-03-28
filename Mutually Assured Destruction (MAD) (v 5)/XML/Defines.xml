@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/13/2013 5:55:48 PM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Where Name="NUKE_FALLOUT_PROB"/>
+			<Set Value="60"/>
+		</Update>
+		<Update>
+			<Where Name="NUKE_LEVEL2_ELIM_POPULATION_THRESHOLD"/>
+			<Set Value="0"/>
+		</Update>
+	</Defines>
+</GameData>

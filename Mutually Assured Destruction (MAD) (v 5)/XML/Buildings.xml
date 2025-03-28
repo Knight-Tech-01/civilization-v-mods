@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/3/2014 6:17:46 PM -->
+<GameData>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>
